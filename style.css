@@ -1,0 +1,104 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  background-color: #fdf6e3;
+  border: 8px solid #7b3e1d;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  padding: 16px;
+  color: #2c2c2c;
+}
+/* Bordas temáticas por elemento */
+.fogo {
+  border: 8px solid #b22222; /* vermelho fogo */
+  box-shadow: 0 0 20px rgba(178, 34, 34, 0.6);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #7b3e1d;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.card h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #4a2c0a;
+  text-align: center;
+}
+
+.descricao {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.habilidades, .caracteristicas {
+  background-color: #fff;
+  border: 2px solid #7b3e1d;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.habilidades h2, .caracteristicas h2 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #4a2c0a;
+}
+
+.habilidades ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.habilidades li {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.caracteristicas p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+/* Bordas temáticas por elemento */
+.fogo {
+  border: 8px solid #b22222; /* vermelho fogo */
+  box-shadow: 0 0 20px rgba(178, 34, 34, 0.6);
+}
+
+.luz {
+  border: 8px solid #ffd700; /* dourado luz */
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+}
+
+.sombra {
+  border: 8px solid #4b0082; /* roxo sombra */
+  box-shadow: 0 0 20px rgba(75, 0, 130, 0.6);
+}
