@@ -53,5 +53,13 @@ body {
   text-align: center;
 }
 
+.habilidades, .caracteristicas {
+  background-color: #fff;
+  border: 2px solid #7b3e1d;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
 
 
